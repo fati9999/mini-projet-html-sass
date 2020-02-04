@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.card {
+  padding: 10px 40px 80px 20px;
+  -webkit-box-shadow: 1px 1px 5px 1px #a3a5ae;
+          box-shadow: 1px 1px 5px 1px #a3a5ae;
+  border-top: 5px solid #45d3d3;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 20% 0 0 15%;
+}
+
+.card p {
+  font-size: 15px;
+  color: #a3a5ae;
+  font-family: 'poppins';
+}
+
+.card h2 {
+  font-family: 'poppins';
+}
+
+.card .icone {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
