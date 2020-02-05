@@ -1,25 +1,65 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-.card {
-  padding: 10px 40px 80px 20px;
-  -webkit-box-shadow: 1px 1px 5px 1px #a3a5ae;
-          box-shadow: 1px 1px 5px 1px #a3a5ae;
-  border-top: 5px solid #45d3d3;
-  border-radius: 5px;
-  max-width: 300px;
-  margin: 20% 0 0 15%;
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 2rem 4rem;
+  background-color: #fafafa;
+  height: 100vh;
 }
 
-.card p {
-  font-size: 15px;
+.container .s {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.65fr 0.65fr 0.65fr;
+      grid-template-columns: 0.65fr 0.65fr 0.65fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.66rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.container .s .card {
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 24px #a3a5ae;
+          box-shadow: 0px 10px 24px #a3a5ae;
+}
+
+.container .s .card .title_card {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.66rem;
+  margin-bottom: 1rem;
+  color: #4c4e61;
+}
+
+.container .s .card .parag_card {
+  margin-bottom: 3rem;
   color: #a3a5ae;
-  font-family: 'poppins';
 }
 
-.card h2 {
-  font-family: 'poppins';
-}
-
-.card .icone {
+.container .s .card img {
   float: right;
+}
+
+.container .s .calculator {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3/5;
+  border-top: 5px solid #fcaf4a;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
