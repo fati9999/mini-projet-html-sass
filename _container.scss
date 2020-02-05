@@ -1,0 +1,32 @@
+.container{
+    background-color: $colorOne;
+    padding: 20px 40px;
+    margin: 0px auto;
+    max-width: 1440px;
+    height: 100vh;
+
+
+    .card1{
+      text-align: $myPosition;
+      font-size: 12px;
+      font-style: normal;
+      color: rgb(170, 167, 167);
+    
+      
+  }
+    .card2{
+        text-align: $myPosition;
+        font-size: 12px;
+        font-family: normal;
+        color: black
+        
+  
+    }
+    .card3{
+        text-align: $myPosition;
+        font-size: 8px;
+        color: rgb(170, 167, 167);
+    }
+
+
+}
