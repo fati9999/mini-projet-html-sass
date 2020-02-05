@@ -1,23 +1,74 @@
-$color1 :hsl(229, 6%, 66%);
-$color2 :hsl(180, 62%, 55%);
-$color3 :hsl(229, 6%, 66%);
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-.card {
-    padding: 10px 40px 80px 20px;
-    box-shadow: 1px 1px 5px 1px $color3;
-    border-top: 5px solid $color2;
-    border-radius: 5px;
-    max-width: 300px;
-    margin: 20% 0 0 15%;
-    p {
-        font-size: 15px;
-        color: $color1;
-        font-family: 'poppins';
+// $color : hsl(229, 6%, 66%);
+// $color1 : hsl(180, 62%, 55%) ;
+// $color3:hsl(229, 6%, 66%));
+// .card{
+//     background-color: $color;
+//     border-radius: 7px;
+//     padding: 20px;
+//       margin: 15% 0 0 15%;
+//       box-shadow: 1px 0px 0px 1px $color3;
+//       border-top: 7px solid $color3;
+      
+//       }
+//       h1{
+       
+//       }
+//      p{
+//          color:$color1;
+        
+//      }
+//     .icon{
+//         margin-left: 82%;
+//     }
+   
+
+    $color1 :hsl(229, 6%, 66%);
+    $color2 :hsl(214, 81%, 51%);
+    $color3 :hsl(229, 6%, 66%);
+    @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap%27');
+    .card {
+        padding: 10px 40px 80px 20px;
+        box-shadow: 1px 1px 5px 1px $color1;
+        border-top: 5px solid $color2;
+        border-radius: 5px;
+        max-width: 300px;
+        margin: 20% 0 0 50%;
+     
+        p {
+            font-size: 15px;
+            color: $color1;
+            font-family: 'poppins';
+        }
+        h2 {
+            font-family: 'poppins';
+        }
+        .icon {
+            float: right;
+            margin-left: 80px;
+        }
     }
-    h2 {
-        font-family: 'poppins';
+     //card 2
+
+    
+   
+    .card3 {
+        padding: 10px 40px 80px 20px;
+        box-shadow: 1px 1px 5px 1px $color1;
+        border-top: 5px solid $color2;
+        border-radius: 5px;
+        max-width: 300px;
+        margin: 20% 0 0 50%;
+     
+        p {
+            font-size: 15px;
+            color: $color1;
+            font-family: 'poppins';
+        }
+        h2 {
+            font-family: 'poppins';
+        }
+        .icon {
+            float: right;
+            margin-left: 20px;
+        }
     }
-    .icone {
-        float: right;
-    }
-}
