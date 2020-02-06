@@ -1,23 +1,13 @@
-$color1 :hsl(229, 6%, 66%);
-$color2 :hsl(180, 62%, 55%);
-$color3 :hsl(229, 6%, 66%);
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-.card {
-    padding: 10px 40px 80px 20px;
-    box-shadow: 1px 1px 5px 1px $color3;
-    border-top: 5px solid $color2;
-    border-radius: 5px;
-    max-width: 300px;
-    margin: 20% 0 0 15%;
-    p {
-        font-size: 15px;
-        color: $color1;
-        font-family: 'poppins';
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400');
+@import "./variables";
+@import "./container";
+
+ *  {padding:$padding;
+     margin: $ourmargin;
+     box-sizing: border-box;
+     $ourfont-size: 15px;
+     $ourfont-family: 'Poppins', sans-serif;
     }
-    h2 {
-        font-family: 'poppins';
-    }
-    .icone {
-        float: right;
-    }
-}
+
+        
+    

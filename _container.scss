@@ -1,0 +1,44 @@
+
+@import "./variables";
+.container{
+    max-width: 1440;
+    background-color:$outMaincolor;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr  1fr  1fr  1fr;
+    grid-gap: 30px;
+    padding:$padding+ 20px;
+     margin: 100px 100px;
+        .Builder{
+        height: 40vh;
+        grid-column: 2/3;
+        grid-row: 1/3;
+        border-top: 5px solid $ourMaincolor;
+        border-radius: 10px;
+        background-color:$otcolor;
+        padding:$padding+ 20px;
+        margin-top:50px ;
+
+        h2{
+            font-weight: 600;
+            font-style: normal;
+            font-size:25px;
+            margin-bottom:$margin-bottom+ 5px;
+            color: $clr;
+            margin-left: 5px;
+        }
+        .para{
+            margin-bottom:$margin-bottom+ 5px;
+            color: $coul;
+            font-size: 20px;
+        }
+        
+
+        img{
+            margin-top:30px;
+            padding-top: 100px;
+            float: right;
+        }
+        }
+
+    }
